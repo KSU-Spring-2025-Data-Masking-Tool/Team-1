@@ -3,6 +3,7 @@ from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, 
 from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 import os
+import pymysql
 from faker import Faker
 from flasgger import Swagger
 from flask_cors import CORS
