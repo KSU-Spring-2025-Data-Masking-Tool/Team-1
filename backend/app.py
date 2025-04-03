@@ -58,7 +58,7 @@ def generate_student_record():
     return {
         'Name': fake.name(),
         'Year': fake.random_int(min=1, max=4),
-        'GPA': round(fake.random_number(digits=2) / 10, 2),  # GPA between 0.0 and 4.0
+        'GPA': round(fake.random.uniform(0.0, 4.0) 2),  # GPA between 0.0 and 4.0
         'PhoneNumber': fake.phone_number(),
         'Address': fake.address()
     }
