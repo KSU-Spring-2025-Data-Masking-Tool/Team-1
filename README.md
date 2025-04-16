@@ -37,7 +37,7 @@ The Flask server should be running on:
 
 You can now make API requests and explore the available endpoints!
 
-### 7. Start Frontend 
+### 7. Start Frontend
 in a new terminal window download and install froneend dependecies
 ```
 cd frontend
